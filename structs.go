@@ -20,4 +20,10 @@ func main() {
 
 	fmt.Println(&person{name: "Ann", age: 40})
 	fmt.Println(newPerson("Jon"))
+
+	sp := person{name: "Sean", age: 50}
+	fmt.Println(sp.name)
+
+	sp.age = 51
+	fmt.Println(sp.age)
 }
